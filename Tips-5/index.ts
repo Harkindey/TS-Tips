@@ -18,3 +18,4 @@ export const getDeepValue = <Obj, FirstKey extends keyof Obj, SecondKey extends 
   }
 
 const result = getDeepValue(obj, "foo", "b")
+const result1 = getDeepValue(obj, "bar", "d")
