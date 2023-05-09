@@ -1,7 +1,7 @@
 {
   "name": "ts-tips",
   "version": "1.0.0",
-  "description": "Tricks from Matt Poccock",
+  "description": "Typescript Tricks from Matt Poccock",
   "main": "index.ts",
   "scripts": {
     "test": "tsc -w"
