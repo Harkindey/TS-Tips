@@ -1,0 +1,1 @@
+export const createPost =  (id:string, title: string)=>{}
