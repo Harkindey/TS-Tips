@@ -1,1 +1,1 @@
-# Typescript Tricks from Matt Poccock
+# Typescript Tricks with Matt Poccock
