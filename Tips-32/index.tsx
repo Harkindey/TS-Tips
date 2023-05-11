@@ -1,4 +1,4 @@
-import React, { ComponentProps } from "react";
+import React, { ComponentProps, FC } from "react";
 
 //Imagine Navbar is an external library
 
@@ -12,4 +12,7 @@ export const NavBar = (props: {
 
 // Our APP
 
-type NavBarProps = ComponentProps<typeof NavBar>
+// type NavBarProps = ComponentProps<typeof NavBar>
+type PropsFromFC<T> = T extends FC<infer Props> ? Props :never;
+
+type NavBarProps =PropsFromFC<typeof NavBar>
