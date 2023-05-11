@@ -5,7 +5,7 @@ interface TableProps<TItem> {
     renderItem: (item:TItem) => React.ReactNode;
 }
 
-export function Table<TItem>(props: TableProps<TItem>)  {
+export const Table = <TItem,>(props: TableProps<TItem>) => {
     return null
 }
 
